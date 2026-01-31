@@ -11,4 +11,6 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: black;
+  margin: 0;
+  padding: 0;
 }
