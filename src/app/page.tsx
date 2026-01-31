@@ -70,7 +70,7 @@ export default function LandingPage() {
               </h1>
               
               <p className="max-w-2xl mx-auto text-lg md:text-2xl text-gray-400 mb-12 font-medium leading-tight tracking-tight">
-                Stop sending generic AI noise. Start conversations that build <span className="text-white">authority</span>, <span className="text-white">influence</span>, and <span className="text-white">revenue</span>.
+                The strategic edge for your X feed. High-impact replies that actually sound like you.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center gap-6">
@@ -85,7 +85,7 @@ export default function LandingPage() {
 
               {/* Trust Bar */}
               <div className="mt-20 flex flex-wrap justify-center items-center gap-x-12 gap-y-6 opacity-40 grayscale hover:grayscale-0 transition-all duration-700">
-                {['X', 'LinkedIn', 'Reddit', 'Product Hunt'].map(p => (
+                {['X.com (Twitter)'].map(p => (
                   <span key={p} className="text-sm font-black uppercase tracking-[0.3em]">{p}</span>
                 ))}
               </div>
@@ -227,7 +227,7 @@ export default function LandingPage() {
                   <div className="text-5xl font-black tracking-tighter">$12<span className="text-lg opacity-40">/mo</span></div>
                 </div>
                 <ul className="space-y-6 mb-12 flex-1 relative z-10">
-                  {['Infinite Daily ReplieS', 'Custom Writing Personas', 'Priority Reddit & PH Support', 'Advanced Logic Presets'].map(li => (
+                  {['Infinite Daily ReplieS', 'Custom Writing Personas', 'Priority Feature Access', 'Advanced Logic Presets'].map(li => (
                     <li key={li} className="flex items-center gap-3 text-black font-black text-sm tracking-tight uppercase">
                       <div className="w-1.5 h-1.5 rounded-full bg-black" />
                       {li}
